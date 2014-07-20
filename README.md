@@ -1,5 +1,5 @@
-tomtom-cardio-watch-reader
-==========================
+Tomtom cardio watch reader.
+===========================
 
 Linux application that reads activity files from the Tomtom multisport cardio watches.
 The activity files will be written to the current folder using the 'YYYY-MM-DD_HH:MM::SS.ttbin' filename pattern.
@@ -8,11 +8,10 @@ TTBIN files can be converted using the Tomtom software or you can check my other
 Usage:
 ------
  sudo ./extract_files
-
-Options:
- --all Extract all the files instead of just the activity files.
- --vid=... To change the vendor id used to find the watch.
- --pid=... To change the product id used to find the watch.
+### Options:
+ * --all Extract all the files instead of just the activity files.
+ * --vid=... To change the vendor id used to find the watch.
+ * --pid=... To change the product id used to find the watch.
 
 Notes:
 ------
