@@ -1,0 +1,7 @@
+# UDEV rule for the TomTom multi sport cardio watch.
+# Copy this file to /etc/udev/rules.d
+# You might need to disconnect and reconnect the watch after copying the file.
+# or reload the rules with 'sudo udevadm control --reload'
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="1390", ATTR{idProduct}=="7474", MODE="0666"
+KERNEL=="hidraw*", ATTRS{idVendor}=="1390", ATTRS{idProduct}=="7474", MODE="0666"
