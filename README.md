@@ -1,7 +1,7 @@
-Tomtom cardio watch reader.
-===========================
+Tomtom cardio watch reader / driver for linux.
+==============================================
 
-Linux application that reads activity files from the Tomtom multisport cardio watches.
+Linux application that reads activity files directly from the Tomtom multisport cardio watches.
 The activity files will be written to the current folder using the 'YYYY-MM-DD_HH:MM::SS.ttbin' filename pattern.
 TTBIN files can be converted using the Tomtom software or you can check my other repository for code snippets to decode them.
 
