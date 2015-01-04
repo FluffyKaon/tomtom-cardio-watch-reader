@@ -1,3 +1,9 @@
+#_DEPRECATED_
+Due to my employer's intellectual property policy I can't work on this project anymore. I recommend forking it if you would like updates.
+
+---
+
+
 Tomtom cardio watch reader / driver for linux.
 ==============================================
 
